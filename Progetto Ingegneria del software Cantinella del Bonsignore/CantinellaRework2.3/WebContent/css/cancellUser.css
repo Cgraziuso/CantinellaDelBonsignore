@@ -1,0 +1,186 @@
+@CHARSET "ISO-8859-1";
+ h3{
+	display: none;
+}
+
+table{
+  width:100%;
+  table-layout: fixed;
+}
+
+#divi{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+h1{
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+td{
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+body{
+   background: -webkit-linear-gradient(left, #C0C0C0, #242424);
+  font-family: 'Roboto', sans-serif;
+}
+
+section{
+  margin: 10px;
+}
+
+.top{
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+     background: -webkit-linear-gradient(left, #C0C0C0, #242424);
+     border: 2px solid #808080;
+     
+}
+
+.top:hover {
+    border: 2px solid white;
+}
+
+blockquote{
+	text-align: center;
+}
+
+input{
+	background-color: transparent;
+	  border: 0px;
+	  color: white;
+	  margin-left: 5%;
+	  position: static;
+}
+h4{	
+color:white;
+
+vertical-align:middle;
+display: inline-block; 
+
+}
+
+.td{
+display:table-column;
+
+ 
+ }
+ .fiscale{
+  margin-left: 100%;
+
+ 
+ }
+ .nome{
+	position: absolute;
+	left: -9999px;
+}
+.cognome{position: absolute;
+	left: -9999px;
+}
+#nom{	position: absolute;
+	left: -9999px;
+
+}
+#con{	position: absolute;
+	left: -9999px;
+
+}
+
+
+@media screen and (min-width: 300px) {
+
+ .fiscale{
+  margin-left: 60%;
+ }
+   h4{	
+margin-left: 1em;
+margin-right: 1em;
+}
+ 
+	
+	
+@media screen and (min-width: 540px) {
+.top{
+ margin-left: 10%;
+ }
+.fiscale{
+  margin-left: 10%;
+ }
+	
+
+h4{	
+margin-left: 0.5em;
+margin-right: 0.5em;
+}
+
+.nome{position:static;
+	height: 4.6em;
+}
+.cognome{position:static;
+	height: 4.6em;
+	
+}
+#nom{position: static;
+}
+#con{position: static;
+}
+
+@media screen and (min-width: 665px) {
+	
+	
+  h4{	
+
+
+margin-left: 1.5em;
+margin-right: 4em;
+}
+	
+
+@media screen and (min-width: 920px) {
+ 
+  h4{
+margin-left: 1.5em;
+margin-right: 8em;
+}
+
+
+@media screen and (min-width: 1048px) {
+ 
+  h4{
+margin-left: 1.5em;
+margin-right: 10em;
+}
+
+
+
+@media screen and (min-width: 1240px) {
+ h4{
+margin-left: 1.5em;
+margin-right: 13em;
+}
+
+}
+
